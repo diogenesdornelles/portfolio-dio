@@ -1,0 +1,40 @@
+
+.important-descriptions {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#about-author {
+    font-size: 15px;
+    background-color: aliceblue;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+body {
+    background-color: #3A0CA3; 
+}
+
+#word-bio {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#bio {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.my-habilities {
+    font-size: 22px;
+}
+
+.indice-up {
+    padding: 22px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
