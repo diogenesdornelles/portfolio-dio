@@ -4,6 +4,7 @@
 }
 .important-descriptions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
 }
 
 #about-author {
@@ -43,9 +44,10 @@ body {
 }
 
 #header-photo {
-    background-repeat: no-repeat;
-    background-image: url(/minha_foto.jpeg);
-    margin: 30%;
-    display: inline;
-    
+    margin-left: 0;
 }
+
+#header-title {
+    text-align: center;
+}
+
