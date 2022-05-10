@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .important-descriptions {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -37,4 +40,12 @@ body {
     padding: 22px;
     border-radius: 3px;
     background-color: aliceblue;
+}
+
+#header-photo {
+    background-repeat: no-repeat;
+    background-image: url(/minha_foto.jpeg);
+    margin: 30%;
+    display: inline;
+    
 }
