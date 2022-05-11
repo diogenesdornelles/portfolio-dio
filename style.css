@@ -6,27 +6,27 @@ body {
     background-color: #3A0CA3; 
 }
 
-#header {
+#header, #header section, .top-page {
     display: inline-block;
-}
-
-.description, .first-div, #photo, .title, .top-page {
-    display: inline-block;
-    margin: 5px;
 }
 
 .title {
+    position: absolute;
+    top: 10px;
     font-weight: bold;
     font-size: 200%;
     font-family: monospace;
     text-decoration: underline;
     color: rgb(0, 0, 0);
-    padding: 5px;
+    padding: 9px;
     border-style: outset;
     border-radius: 10px;
     background-color: azure;
-    margin: 0 0 1% 55%;
+    margin: 0 0 10% 37%;
+}
 
+#header section {
+    margin-top: 80px;
 }
 
 #photo {
@@ -34,17 +34,31 @@ body {
     background-color: #ffff;
     border-radius: 5%;
     display: inline-block;
+    position: absolute;
+    margin: 0 0 2% 3%;
 }
 
-.first-div {
-    margin-right: 90%;
+.description {
+    position: absolute;
+    margin: 7% 31% 30px 40%;
+    font-size: 28px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-style: inset;
 }
 
-#about-author {
-    font-size: 15px;
+.odd {
+    font-style: oblique;
     background-color: aliceblue;
-    padding: 6px;
-    border-radius: 6px;
+}
+
+
+
+
+
+#main {
+    margin-top: 500px;
 }
 
 #bio {
