@@ -2,80 +2,15 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background-color: #3A0CA3; 
+
+#img {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 
-#header, #header section, .top-page {
-    display: inline-block;
+#img img {
+    border-radius: 35px;
+    width: 400px;
 }
-
-.title {
-    position: absolute;
-    top: 10px;
-    font-weight: bold;
-    font-size: 200%;
-    font-family: monospace;
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
-    padding: 9px;
-    border-style: outset;
-    border-radius: 10px;
-    background-color: azure;
-    margin: 0 0 10% 37%;
-}
-
-#header section {
-    margin-top: 80px;
-}
-
-#photo {
-    padding: 1%;
-    background-color: #ffff;
-    border-radius: 5%;
-    display: inline-block;
-    position: absolute;
-    margin: 0 0 2% 3%;
-}
-
-.description {
-    position: absolute;
-    margin: 7% 31% 30px 40%;
-    font-size: 28px;
-    padding: 8px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    border-style: inset;
-}
-
-.odd {
-    font-style: oblique;
-    background-color: aliceblue;
-}
-
-
-
-
-
-#main {
-    margin-top: 500px;
-}
-
-#bio {
-    font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: aliceblue;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.my-habilities {
-    font-size: 22px;
-}
-
-.indice-up {
-    padding: 22px;
-    border-radius: 3px;
-    background-color: aliceblue;
-}
-
