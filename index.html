@@ -3,72 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Fernando Dornelles Rocha</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
-  <body class="has-background-grey-dark">
+  <body>
     <header>
-      <nav class="navbar is-white">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="https://github.com/dornellesfr" target="_blank"><img src="/assets/github-octocat.jpg" alt="github-icon"></a>
-          <a class="navbar-item" href="https://www.linkedin.com/in/fernando-dornelles-rocha-3b11b921a/" target="_blank"><img src="/assets/linkedin.png" alt="linkedin-icon"></a>
-          <a class="navbar-item" href="https://www.instagram.com/dornellesfr/" target="_blank"><img src="/assets/600px-Instagram_icon.png" alt="instagram-icon"></a>
+      <nav>
+        <div class="id-icons">
+          <a
+            href="https://github.com/dornellesfr"
+            target="_blank">
+              <img 
+                class="icons"
+                src="/assets/github-octocat-removebg-preview.png"
+                alt="github-icon"
+              />
+          </a>
+
+          <a 
+          href="https://www.linkedin.com/in/fernando-dornelles-rocha-3b11b921a/"
+          target="_blank"
+          >
+            <img
+              class="icons"
+              src="/assets/linkedin-removebg-preview.png"
+              alt="linkedin-icon"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/dornellesfr/"
+            target="_blank">
+              <img
+                class="icons"
+                src="/assets/600px-Instagram_icon-removebg-preview.png" alt="instagram-icon"
+              >
+          </a>
         </div>
 
-        <div class="navbar-end">
-          <a href="#profile" class="navbar-item">Home</a>
-          <a href="#about" class="navbar-item">Sobre</a>
-          <a href="#works" class="navbar-item">Trabalhos</a>
-          <a href="#contact" class="navbar-item">Contato</a>
+        <div>
+          <a href="#profile" >Home</a>
+          <a href="#about" >Sobre</a>
+          <a href="#works" >Trabalhos</a>
+          <a href="#contact" >Contato</a>
         </div>
       </nav>
     </header>
     
     <main>
-      <section class="section is-medium" id="profile">
-        <div class="card" id="img">
-          <div class="card-image">
-            <figure>
-              <img src="/assets/minha_foto.jpeg" alt="Foto Fernando Dornelles Rocha">
-            </figure>
-          </div>
-          <div class="card-content">
-            <h1 class="title has-text-centered has-text-dark">FERNANDO DORNELLES ROCHA</h1>
-            <p class="subtitle has-text-centered has-text-dark">Estudante de desenvolvimento web na Trybe | Fullstack </p>
-          </div>
-        </div>
-      </section>
+      <article id="profile">
+        <img src="/assets/minha_foto.jpeg" alt="Foto Fernando Dornelles Rocha">
+        <h1 >FERNANDO DORNELLES ROCHA</h1>
+        <p >Estudante de desenvolvimento web na Trybe | Fullstack </p>
+      </article>
 
-      <section class="section is-medium" id="about">
-        <h1 class="subtitle has-text-centered has-text-light">Fernando Dornelles</h1>
-        <p class="subtitle has-text-centered has-text-light">Estudante de web desenvolvimento, gosto de jogos digitais, boas leituras e pessoas intensas!</p>
-        <article>
-            <h3 class="subtitle has-text-centered has-text-light">Skills</h3>
+      <article  id="about">
+        <h1 >Fernando Dornelles</h1>
+        <p >Estudante de web desenvolvimento, gosto de jogos digitais, boas leituras e pessoas intensas!</p>
+        <section>
+            <h3 >Skills</h3>
               <ul> 
-                <li class="subtitle has-text-centered has-text-light">Dedicado</li>
-                <li class="subtitle has-text-centered has-text-light">JavaScript</li>
-                <li class="subtitle has-text-centered has-text-light">React JS</li>
-                <li class="subtitle has-text-centered has-text-light">RTL</li>
-                <li class="subtitle has-text-centered has-text-light">HTML</li>
-                <li class="subtitle has-text-centered has-text-light">CSS</li>
-                <li class="subtitle has-text-centered has-text-light">Inglês Intermediário</li>
-                <li class="subtitle has-text-centered has-text-light">Git & github</li>
-                <li class="subtitle has-text-centered has-text-light">Noções de Python</li>
+                <li >Dedicado</li>
+                <li >JavaScript</li>
+                <li >React JS</li>
+                <li >RTL</li>
+                <li >HTML</li>
+                <li >CSS</li>
+                <li >Inglês Intermediário</li>
+                <li >Git & github</li>
+                <li >Noções de Python</li>
               </ul>
-        </article>
-      </section>
+        </section>
+      </article>
 
-      <section class="section is-medium" id="works">
-        <p class="subtitle has-text-centered has-text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur quod soluta! Repellendus, iure, velit minus molestiae beatae, excepturi rerum eaque necessitatibus harum nulla deleniti perspiciatis? Sequi aut inventore doloribus.</p>
-      </section>
+      <article id="works">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur quod soluta! Repellendus, iure, velit minus molestiae beatae, excepturi rerum eaque necessitatibus harum nulla deleniti perspiciatis? Sequi aut inventore doloribus.</p>
+      </article>
 
-      <section class="section is-medium" id="contact">
-        <h2 class="subtitle has-text-centered has-text-light">Links:</h2>
-        <a class="subtitle has-text-centered has-text-light" href="https://www.linkedin.com/in/fernando-dornelles-rocha-3b11b921a/" target="_blank">LinkedIn</a>
-        <a class="subtitle has-text-centered has-text-light" href="https://github.com/dornellesfr" target="_blank">GitHub</a>
-      </section>
-
+      <article id="contact">
+        <h2>Links:</h2>
+        <a href="https://www.linkedin.com/in/fernando-dornelles-rocha-3b11b921a/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/dornellesfr" target="_blank">GitHub</a>
+      </article>
     </main>
 
   </body>
