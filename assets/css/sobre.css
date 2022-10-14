@@ -1,0 +1,139 @@
+/* Sessão sobre*/
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  background: #0D0D0D;
+}
+
+.container-about {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 3%;
+}
+
+.container-about-1 {
+  width: 40%;
+  border-radius: 10px;
+  position: relative;
+  
+}
+
+.container-about-2 {
+  width: 60%;
+  border-radius: 10px;
+  margin-right: 3%;
+  overflow: auto;
+}
+
+.container-about-2::-webkit-scrollbar-track {
+  background: black;
+}
+
+.container-about-2::-webkit-scrollbar-thumb {
+  background: rgba(148, 19, 19, 0.774);
+  border-radius: 10px;
+}
+
+.container-about-1 .image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 1s ease-in;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: 0;
+} 
+
+.image:hover {
+  transform: scale(1.05) rotate(3deg);
+  overflow: hidden;
+}
+
+.container-about-2 .sobre {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+.container-about-2 .skills {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 3%;
+}
+
+
+#about h1 {
+  font-family: Permanent Marker;
+  color: #FFBE1A;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 8px 0 8px 0;
+}
+
+#about .first-p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;  
+  margin: 12px 0 12px 0;
+}
+
+#about .second-p {
+  font-family: Poppins;
+  width: 30vw;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 22px 0 22px 0;
+}
+
+#about section h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#about section ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  grid-auto-rows: 150px;
+  gap: 16px;
+}
+
+#about ul li {
+  padding: 8px 0 8px 0;
+  border: 1px solid #FFBE1A;;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about ul li img {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+}

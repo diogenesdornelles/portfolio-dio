@@ -1,0 +1,208 @@
+/* Sessão de contato*/
+
+#contact {
+  width: 100vw;
+  height: 100vh;
+  background: #0D0D0D;
+}
+
+
+#contact .contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 3%;
+}
+
+#contact .contact-me .div-contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#contact .contact-me .div-form {
+  display: flex;
+  width: 80%;
+  align-self: center;
+  gap: 10%;
+}
+
+#contact .contact-me .div-formdiv-input {
+  height: 100%;
+}
+
+#contact .contact-me .div-form div {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-me .div-form .div-chamada h2 {
+  font-family: Permanent Marker;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFBE1A;
+  margin-bottom: 10%;
+
+}
+
+#contact .contact-me .div-form .div-chamada p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  
+}
+
+#contact .contact-me .div-form .form-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  align-self: center;
+  gap: 2%;
+}
+
+#contact .contact-me .div-form .form-form input{
+/* Nam Bg */
+
+  background: rgba(184, 184, 184, 0.25);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  height: 50px;
+  text-indent: 15px;
+
+}
+
+#contact .contact-me .div-form .form-form input:focus {
+  background: rgba(151, 147, 147, 0.25);
+}
+
+#contact .contact-me .div-form .form-form textarea{
+  height: 104px;
+  background: rgba(184, 184, 184, 0.25);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-indent: 15px;
+  font-family: Poppins;
+  font-size: 13.33px;
+  line-height: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact .contact-me .div-form .form-form textarea:focus {
+  background: rgba(151, 147, 147, 0.25);
+}
+
+#contact .contact-me .div-form .form-form button{
+  width: 37%;
+  height: 10%;
+  background: #FFBE1A;
+  border-radius: 10px;
+  margin-top: 15px;
+  align-self: end;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+#contact .contact-me .div-form .form-form button:hover {
+  background: #d19c14;
+}
+/* Message Bg */
+
+#contact footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 5%; 
+  background-color: #FFBE1A;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#contact footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12%;
+
+}
+
+#contact footer > div div {
+  display: flex;
+}
+
+#contact footer h1 {
+  display: flex;
+  font-family: Permanent Marker;
+  text-align: center;
+}
+
+
+#contact .about-me-footer {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#contact .about-me-footer li a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0 5em 0 5em;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+
+}
+
+#contact .about-me-footer li a:hover {
+  background-color: #bd8c12;
+}
+
+#contact .about-me-footer li a:active {
+  background-color: #816110;
+}
+
+#contact .div-links {
+  display: flex;
+  align-items: baseline;
+
+}
+
+#contact footer .div-links a {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+
+}

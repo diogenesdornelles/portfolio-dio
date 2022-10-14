@@ -1,0 +1,73 @@
+/*Header site.*/
+
+.cabecalho {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  z-index: 2;
+  color: white;
+  opacity: .9;
+  transition: opacity .4s ease-in-out;
+}
+
+.cabecalho:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .cabecalho {
+    flex-direction: column;
+  }
+}
+
+.icons {
+  padding: 4px;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-reader {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.about-me-reader li a {
+  width: 100%;
+  height: 100%;
+  line-height: var(--cabecalho-height);
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: calc(var(--cabecalho-height)/2 - 0.6em) 12px calc(var(--cabecalho-height)/2 - 0.6em) 12px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  letter-spacing: 3px;
+}
+
+.about-me-reader li a::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background: black;
+  border: 2px solid black;
+}
+
+.about-me-reader li a:hover::after {
+  background: #FFBE1A;
+  border: 2px solid #FFBE1A;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+  width: 100%;
+}
