@@ -44,7 +44,6 @@
   height: auto;
   border-radius: 10px;
   transition: all 1s ease-in;
-  overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,9 +51,10 @@
   z-index: 0;
 } 
 
-.image:hover {
-  transform: scale(1.05) rotate(3deg);
+.container-about-1 .modify {
+  transform: scale(1.05) rotate(3deg) translate(20%);
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .container-about-2 .sobre {
@@ -122,7 +122,7 @@
   gap: 16px;
 }
 
-#about ul li {
+#about ul .hidden {
   padding: 8px 0 8px 0;
   border: 1px solid #FFBE1A;;
   border-radius: 6px;
@@ -130,10 +130,20 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  opacity: 0;
+  transition: all 1.2s ease-in-out;
+  transition-delay: .5s;
+}
+
+#about ul .show {
+  opacity: 1;
 }
 
 #about ul li img {
   width: 64px;
   height: 64px;
-  overflow: hidden;
+}
+
+#about ul .hidden p {
+  text-align: center;
 }

@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./assets/css/works.css">
   <link rel="stylesheet" href="./assets/css/contacts.css">
   <link rel="stylesheet" href="./assets/css/cabecalho.css">
-  <script src="./assets/js/animate-scroll.js"></script>
+  <script defer src="./assets/js/animate-scroll.js"></script>
 </head>
   <body>
     <nav class="menu-side">
@@ -54,7 +54,7 @@
       <article id="profile">
         <div class="container-div-profile">
             <img src="./assets/images/diogenes-removebg-preview.png" alt="Foto Diógens Dornelles" class="foto">
-            <h1 >DIÓGENES DORNELLES COSTA</h1>
+            <h1 id="my-name">DIÓGENES DORNELLES COSTA</h1>
             <p >Estudante de desenvolvimento web e bacharel em Direito</p>
         </div>
       </article>
@@ -81,39 +81,39 @@
                     </svg>
                   </div>
                   <ul> 
-                    <li >
+                    <li class="hidden">
                       <p>Dedicado</p> 
                       <img src="./assets/images/dedication.png" alt="dedicação-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>JavaScript</p> 
                       <img src="./assets/images/js.png" alt="js-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>React JS</p> 
                       <img src="./assets/images/atom.png" alt="atom-logo">
                     </li>
-                    <li>
+                    <li class="hidden">
                       <p>SQL</p> 
                       <img src="./assets/images/sql.png" alt="sql-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>HTML</p> 
                       <img src="./assets/images/html.png" alt="html-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>CSS</p> 
                       <img src="./assets/images/css-3.png" alt="css-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>Inglês intermediário</p> 
                       <img src="./assets/images/united-kingdom.png" alt="UK-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>Git & Github</p> 
                       <img src="./assets/images/github.png" alt="github-logo">
                     </li>
-                    <li >
+                    <li class="hidden">
                       <p>Python</p> 
                       <img src="./assets/images/python.png" alt="py-logo">
                     </li>
@@ -221,5 +221,15 @@
       </article>
     </main>
     <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '#my-name',
+            translateX: [2000, 0], // from 100 to 250
+            delay: 1000,
+            easing: 'spring(1, 80, 10, 0)'
+            });
+
+    </script>
   </body>
 </html>

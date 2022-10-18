@@ -87,12 +87,6 @@
   
 }
 
-/*
-#works .carousel .carousel-inner:hover {
-  animation-play-state: paused;
-}
-*/
-
 @keyframes run-images {
   0% {
     transform: translate(0);
