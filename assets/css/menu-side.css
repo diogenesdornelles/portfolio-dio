@@ -84,4 +84,5 @@
   width: 100%;
   height: auto;
   border-radius: 50%;
+  filter: grayscale(1);
 }
